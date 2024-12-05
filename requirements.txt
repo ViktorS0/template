@@ -1,0 +1,43 @@
+# devops
+black
+pytest
+pytest-cov
+pylint
+psycog2
+boto3
+# datascience
+jupyter
+pandas
+numpy
+datetime
+pathlib
+scipy
+math
+statsmodels
+pymc
+#arviz
+scikit-learn
+xgboost
+matplotlib
+seaborn
+dask
+# MLOps
+onnx
+databricks
+databricks-cli
+databricks-sql-connector
+mlflow
+## MLOps-HuggingFace
+transformers
+sentencepiece
+datasets
+tokenizers
+# deep learning
+torch
+torchvision
+tensorflow
+keras
+#openai whisper
+git+https://github.com/openai/whisper.git 
+#yake
+yake
