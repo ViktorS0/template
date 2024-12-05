@@ -16,7 +16,7 @@ To make sure this virtual env is activated when opren new consoles:
 * and paste `source ~/.venv/bin/activate` at the bottom of the file
 * write the file and exit `:wq`
 
-## create ssh key to connect to git
+## Create ssh key to connect to git
 in the console write `ssh-keygen -t ed25519` or `ssh-keygen -t RSA`. ed25519 is sorther more modern ssh key
 
 The key generator should ask you to choose a location to store the keys. Press Enter to save them in the default location, which is the /.ssh directory in /home. Alternatively, specify a different location by typing its path and file name.
@@ -27,5 +27,5 @@ To print the public key write `cat ~/.ssh/id_rsa.pub` or `cat ~/.ssh/id_ed25519.
 
 Copy and paste the key in the git provider and save it.
 
-### clone git repo 
+### Clone git repo 
 to clone the git repository coppy the ssh link from git and write in the console `git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
