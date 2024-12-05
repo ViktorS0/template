@@ -12,9 +12,9 @@ Check environment
 `which python`
 
 To make sure this virtual env is activated when opren new consoles:
-open the bash file `vim ~/bashrc`
-and paste `source ~/.venv/bin/activate` at the bottom of the file
-write the file and exit `:wq`
+* open the bash file `vim ~/bashrc`
+* and paste `source ~/.venv/bin/activate` at the bottom of the file
+* write the file and exit `:wq`
 
 ## create ssh key to connect to git
 
