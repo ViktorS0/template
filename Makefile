@@ -4,7 +4,8 @@ install:
 	#force install latest whisper
 	# pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
 test:
-	#python -m pytest -vv --cov=main --cov=mylib test_*.py
+	#python -m pytest -vv --cov=main --cov=mylib test_*.py # runs the files "test_*.py" that are expected to contain test functions
+	#python -m pytest --nlval notebook.ipynb # module nlval test if notebook.ipynb has errors. 
 
 format:	
 	black *.py
