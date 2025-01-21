@@ -13,8 +13,8 @@ To print the public key write `cat ~/.ssh/id_rsa.pub` or `cat ~/.ssh/id_ed25519.
 Copy and paste the key in the git provider and save it.
 
 set up user.name and user.email in the terminal 
-`git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"`
+`git config --global user.name "Your Name"`
+`git config --global user.email "your.email@example.com"`
 
 ### Clone git repo 
 to clone the git repository coppy the ssh link from git and write in the console `git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
