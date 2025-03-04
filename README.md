@@ -35,3 +35,16 @@ To make sure this virtual env is activated when opren new consoles:
 * open the bash file `vim ~/.bashrc`
 * and paste `source ~/.venv/bin/activate` at the bottom of the file
 * write the file and exit `:wq`
+
+### Create virtual conda environment
+1. make sure anaconda is instaled
+2. cretate `environment.yml` file with the dependancies that need to be instaled
+name: env-name
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+3. to activate the environment run `conda env create -f environment.yml`
+
