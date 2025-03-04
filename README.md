@@ -39,6 +39,8 @@ To make sure this virtual env is activated when opren new consoles:
 ### Create virtual conda environment
 1. make sure anaconda is instaled
 2. cretate `environment.yml` file with the dependancies that need to be instaled
+
+```
 name: env-name
 channels:
   - defaults
@@ -46,5 +48,8 @@ channels:
 dependencies:
   - python=3.11
   - pandas
+```
+
+
 3. to activate the environment run `conda env create -f environment.yml`
 
