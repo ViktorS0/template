@@ -37,6 +37,8 @@ To make sure this virtual env is activated when opren new consoles:
 * write the file and exit `:wq`
 
 ### Create virtual conda environment
+Conda environment alos to mange more then just python packegies. It can also mange operating sysyem, python version and more
+
 1. make sure anaconda is instaled
 2. cretate `environment.yml` file with the dependancies that need to be instaled
 
