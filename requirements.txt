@@ -1,4 +1,5 @@
 # devops
+dotenv
 black
 pytest
 pytest-cov
@@ -27,11 +28,14 @@ databricks
 databricks-cli
 databricks-sql-connector
 mlflow
-## MLOps-HuggingFace
+# HuggingFace
 transformers
 sentencepiece
 datasets
 tokenizers
+peft
+## lang chain
+langchain
 # deep learning
 torch
 torchvision
