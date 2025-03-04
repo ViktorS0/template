@@ -50,6 +50,8 @@ channels:
 dependencies:
   - python=3.11
   - pandas
+  - pip
+    - ollama
 ```
 
 
