@@ -37,9 +37,9 @@ To make sure this virtual env is activated when opren new consoles:
 * write the file and exit `:wq`
 
 ### Create virtual conda environment
-Conda environment alos to mange more then just python packegies. It can also mange operating sysyem, python version and more
+Conda environment alows to manage more then just python packegies. It can also mange operating sysyem, python version and more
 
-1. make sure anaconda is instaled
+1. Conda is available on Windows, macOS, or Linux and can be used with any terminal application
 2. cretate `environment.yml` file with the dependancies that need to be instaled
 
 ```
@@ -55,6 +55,8 @@ dependencies:
     - ollama
 ```
 
-
-3. to activate the environment run `conda env create -f environment.yml`
+3. To activate the environment run
+   1. run `conda info --envs` # to see a list of avalable environments 
+   2. to create new envoronment from .yml file run `conda env create -f environment.yml` # to create conda environment form file environment.yml
+   3. `conda activate <env-name>` # replace <env-name> with the name of the environment to be activated                                          
 
