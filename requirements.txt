@@ -34,6 +34,7 @@ sentencepiece
 datasets
 tokenizers
 peft
+trl
 ## lang chain
 langchain
 # deep learning
