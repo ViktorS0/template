@@ -30,7 +30,6 @@ databricks-sql-connector
 mlflow
 # HuggingFace
 transformers
-sentencepiece
 datasets
 tokenizers
 peft
