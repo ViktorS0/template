@@ -58,7 +58,7 @@ dependencies:
 3. To activate the environment run
    1. run `conda info --envs` # to see a list of avalable environments 
    2. to create new envoronment from .yml file run `conda env create -f environment.yml` # to create conda environment form file environment.yml
-   3. `conda activate <env-name>` # replace <env-name> with the name of the environment to be activated
+   3. `conda activate <env-name>` # replace <env-name> with the name of the environment to be activated. The environment name can be found in the .yml file use in the setup.
 ### Update conda envoronment 
 update conda env with environment.yml file. --prune removes packegies that are no longer in the file.
 `conda env update --f environment.yml --prune` 
