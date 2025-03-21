@@ -1,4 +1,4 @@
-name: llms
+name: 
 channels:
   - conda-forge
   - defaults
@@ -12,5 +12,10 @@ dependencies:
   - ipywidgets
   - matplotlib
   - jupyter-dash
+  - requests
+  - multitasking
   - pip:
     - pathlib
+    - yfinance --upgrade --no-cache
+    - alpha_vantage
+    - quandl 
