@@ -16,6 +16,6 @@ dependencies:
   - multitasking
   - pip:
     - pathlib
-    - yfinance --upgrade --no-cache
+    - yfinance
     - alpha_vantage
     - quandl 
