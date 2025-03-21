@@ -1,0 +1,16 @@
+name: llms
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pip
+  - python-dotenv
+  - numpy
+  - pandas
+  - jupyterlab
+  - ipywidgets
+  - matplotlib
+  - jupyter-dash
+  - pip:
+    - pathlib
