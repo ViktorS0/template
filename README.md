@@ -40,6 +40,7 @@ To make sure this virtual env is activated when opren new consoles:
 Conda environment alows to manage more then just python packegies. It can also mange operating sysyem, python version and more
 
 1. Instal miniconda if needed. Conda is available on Windows, macOS, or Linux and can be used with any terminal application
+`conda update conda`
 2. cretate `environment.yml` file with the dependancies that need to be instaled
 
 ```
