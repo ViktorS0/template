@@ -62,6 +62,7 @@ dependencies:
    3. `conda activate <env-name>` # replace <env-name> with the name of the environment to be activated. The environment name can be found in the .yml file use in the setup.
 ### Update conda envoronment 
 update conda env with environment.yml file. --prune removes packegies that are no longer in the file.
+
 `conda env update --f environment.yml --prune` 
 
 ### Remove conda environment
