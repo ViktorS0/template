@@ -64,5 +64,5 @@ update conda env with environment.yml file. --prune removes packegies that are n
 `conda env update --f environment.yml --prune` 
 
 ### Remove conda environment
-`conda env remove --name dowjones`
+`conda env remove --name ENV_NAME`
 
